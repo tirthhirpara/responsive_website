@@ -1,0 +1,748 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.pd-y
+{
+    padding: 80px 0px;
+}
+.logo p{
+    padding-top: 12px;
+    padding-left: 8px;
+    margin: 0px;
+    font-size: 13px;
+    color: gray;
+}
+ul{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.time
+{
+    color: #6DBF27;
+}
+.header
+{
+    background-color: green;
+    padding: 10px 0px;
+}
+.btn1{
+    padding: 10px 30px;
+    border: none;
+    background-color: #FE8A01;
+    border-radius: 3px;
+    color: white;
+    transition: .5s;
+}
+.btn1:hover{
+    background-color: #62BE1E;
+}
+.nav-link
+{
+    color: white !important;
+}
+.dropdown-menu
+{
+    background-color: black !important;
+}
+.dropdown-item
+{
+    color: gray !important;
+
+}
+
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    display: block;
+}
+
+.search
+{
+    color: white !important;
+}
+.abou
+{
+    color: white;
+}
+/* ---------------------------------slider start --------------------------------------------- */
+.item img{
+    height: 615px;
+    object-fit: cover;
+    position: relative;
+}
+.item .content{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    color: white;
+    width: 100%;
+}
+.item .content h5{
+    text-align: center;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.2em;
+    padding: 0px 0px 1px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+.item .content .tel
+{
+    text-align: center;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin:0px 0px 20px 0px !important;
+}
+.item .content p{
+    text-align: center;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin: 0px 0px 20px 0px;
+}
+.item .content .btnn
+{
+    position: relative;
+}
+.item .content .btn1{
+
+    padding: 15px 30px;
+    border: none;
+    background-color: #62BE1E;
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    letter-spacing: 1px;
+    transform: translateX(-50%);
+    transition: .5s;
+}
+.item .content .btn1:hover{
+    background-color: #FE8A01;
+}
+.owl-nav
+{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.owl-nav button{
+    font-size: 40px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    color: #62BE1E !important;
+    height: 40px;
+    width: 40px;
+    line-height: 10px !important;
+    text-align: center;
+
+}
+
+
+
+/* ----------------------------------------slider end -------------------------------------------- */
+
+
+/* ----------------------------------------planting start -------------------------------------------- */
+
+.content5 a{
+    color: #FE8A01 !important;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition: .3s;
+}
+.content5 a:hover{
+    color: black !important;
+}
+.img5{
+    position: relative;
+}
+.exception
+{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 40%;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.exception h5{
+    font-size: 23px;
+}
+.exception h4{
+    font-size: 35px;
+}
+.exception .btn2
+{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    color: #6DBF27;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.exception .btn2:hover
+{
+    background-color: #FE8A01;
+    color: white;
+}
+/* ----------------------------------------planting end -------------------------------------------- */
+
+
+/* ----------------------------------------what we do start -------------------------------------------- */
+.what
+{
+    background-color: #F6F6F6;
+}
+.we-do
+{
+    text-align: center;
+    
+}
+.we-do h3{
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.tree
+{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 0px 30px;
+    transition: .5s;
+}
+.tree .ioio{
+
+        padding: 25px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        font-size: 40px;
+        color: white;
+        background-color: #62BE1E;
+        transition: .5s;
+}
+.tree .leaf h4{
+    font-size: 20px;
+}
+.tree .leaf
+{
+    margin-top: 40px;
+}
+.tree .leaf p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.tree:hover
+{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5),
+    0px 0px 8px rgba(0, 0, 0, 0.5),
+    0px 0px 16px rgba(0, 0, 0, 0.5);
+}
+.tree .ioio:hover{
+    background-color: #FE8A01;
+    color: gray;
+}
+
+
+/* ----------------------------------------what we do end -------------------------------------------- */
+
+
+/* ----------------------------------------more services start -------------------------------------------- */
+
+.img7{
+    background-image: url('./image/im7.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.more h2{
+    margin-bottom: 20px;
+}
+.care h5
+{
+    font-weight: lighter;
+}
+.tick
+{
+    color: #62BE1E;
+    padding-right: 10px;
+}
+.btn7
+{
+    margin-top: 50px !important;
+    width: 40% !important;
+    padding: 15px 25px;
+    border: none;
+    font-size: 12px;
+    background-color: #FE8A01;
+    color: white;
+    letter-spacing: 1px;
+    transition: .4s;
+    border-radius: 5px;
+}
+.btn7:hover{
+    background-color: #6DBF27;
+}
+/* ----------------------------------------more services end -------------------------------------------- */
+
+
+/* ------------------------------------------------images start -------------------------------------------- */
+
+.w-16
+{
+    width: 16.66%;
+}
+.image .image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .4s;
+    opacity: 1;
+  
+  
+  }
+.image
+{
+    width: 16.66%;
+    position: relative;
+}
+.comm
+  {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    transition: .5s;
+    opacity: 0;
+}
+.comm:hover{
+    opacity: 1;
+}
+  .comm h6{
+
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 0px 10px;
+}
+
+.comm p{
+    margin-top: 15px;
+    padding: 0px 10%;
+}
+.aaa{
+    margin-top:10px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    color: #62BE1E;
+    transition: .5s;
+}
+  .aaa:hover{
+  
+    color: orange;
+}
+/* -------------------------------------------------images end ------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------- WHY CHOOSE JARDINIER START -------------------------------------------- */
+.why h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.we-offer
+{
+    height: 100px;
+    border: 1px solid #62BE1E;
+    border-radius: 5px;
+    color: black;
+    transition: .5s;
+}
+.we-offer{
+    padding-top: 20px;
+}
+.hand
+{
+    font-size: 25px;
+    color: #62BE1E;
+    transition: .4s;
+}
+.we-offer:hover .hand{
+    color: white;
+}
+.we-offer:hover{
+    background-color: #62BE1E;
+    color: white;
+}
+.pd-x
+{
+    padding: 0px 240px;
+}
+
+/* ------------------------------------------------- WHY CHOOSE JARDINIER end -------------------------------------------- */
+
+
+/* ------------------------------------------------- gardener start -------------------------------------------- */
+
+.garden .im20
+{
+    background-image: url('./image/im20.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+}
+.garden
+{
+    width: 100%;
+    height: 100%;
+}
+.need
+{
+    color: white;
+    width: 50%;
+}
+.need h5{
+
+        margin-top: 20px;
+}
+.need h1{
+    font-size: 50px;
+}
+.need .btn4
+{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FE8A01;
+    color: white;
+    margin-top: 20px;
+    transition: .5s;
+}
+.need .btn4:hover
+{
+    background-color: white;
+    color: black;
+}
+.jake h3
+{
+    font-size: 20px;
+}
+.jake h4{
+    font-size: 14px;
+    color: #6DBF27;
+}
+/* ------------------------------------------------- gardner end -------------------------------------------- */
+
+
+
+/* ------------------------------------------------- gardner end -------------------------------------------- */
+
+.foot
+{
+    background-color: black;
+}
+.footer{
+    color: white;
+}
+.footer p{
+    color: gray;
+}
+.car{
+    color: #6DBF27 !important;
+    padding-right: 10px;
+}
+.fo p:hover{
+    color: #6DBF27;
+}
+.fo p:hover .car{
+    color: white !important;
+}
+/* ------------------------------------------------- gardner end -------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------- about css start ------------------------------------------- */
+
+.im22
+{
+    background-image: url('./image/im22.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+}
+.aboutt
+{
+    color: black;
+}
+.neede{
+ 
+    background-image: url('./image/im23.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px; 
+    color: white;  
+}
+.some
+{
+    margin-top: 50px;
+}
+.btn23
+{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.btn23:hover{
+    background-color: #FE8A01;
+    color: white;
+}
+.whyy
+{
+    background-image: url('./image/im22.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;   
+}
+.reg
+{
+        padding: 20px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        color: white;
+        background-color: #62BE1E;
+        transition: .5s;
+}
+.reg:hover{
+    color: gray;
+}
+.mission
+{
+    letter-spacing: 1px;
+}
+.ourr
+{
+    background-color: #6DBF27;
+    padding: 15px 40px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: .5s;
+
+}
+.ourr:hover{
+    background-color: #FE8A01;
+}
+
+/* -------------------------------------------------- about css end ------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------------- blog start----------------------------------------------------- */
+
+.img25
+{
+    background-image: url('./image/im25.jpeg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.img26
+{
+    background-image: url('./image/im26.jpeg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 200px;
+}
+.img27
+{
+    background-image: url('./image/im27.jpeg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 200px;
+    margin-bottom: 105px;
+
+}
+.content25{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    transform: translateY(130%);
+}
+.btn25
+{
+    background-color: #62BE1E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition: .4s;
+}
+.btn25:hover{
+    background-color: #FE8A01;
+}
+
+
+
+
+
+/* ---------------------------------------------------------blog end ----------------------------------------------------- */
+
+
+/* ---------------------------------------------------------projects start ----------------------------------------------------- */
+.abo{
+    color: gray;
+}
+.plus h1{
+    color: #6DBF27;
+    text-align: center;
+    margin-top: 100px;
+}
+.img28{
+    position: relative;
+    width: 100%;
+}
+.plus{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: .5s;
+
+}
+.img28:hover .plus{
+    opacity: 1;
+}
+
+.img32{
+    position: relative;
+    width: 100%;
+}
+.pluss h1{
+    color: #6DBF27;
+    text-align: center;
+    margin-top: 160px;
+}
+.pluss{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: .5s;
+
+}
+.img32:hover .pluss{
+    opacity: 1;
+}
+.gar:hover{
+    color: #62BE1E;
+}
+/* ---------------------------------------------------------projects end ----------------------------------------------------- */
+
+/* ---------------------------------------------------------contact start ----------------------------------------------------- */
+
+.faphone
+{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px;
+    background-color: #6DBF27;
+    border-radius: 50%;
+    color: white;
+    margin-right: 20px;
+}
+.submi
+{
+    background-color: #62BE1E !important;
+    border: none !important;
+    padding: 15px 50px !important;
+    transition: .5s;
+    margin-top: 30px !important;
+}
+.submi:hover{
+    background-color: #FE8A01 !important;
+}
+/* ---------------------------------------------------------contact end ----------------------------------------------------- */
+
+
+/* ---------------------------------------------------------jake start ----------------------------------------------------- */
+
+.jake1 p{
+    color: #62BE1E;
+}
+.faph
+{
+    font-size: 28px;
+    padding-right: 30px;
+    color: #6DBF27;
+}
+.pho
+{
+    font-size: 22px;
+}
+.farigh
+{
+    margin-right: 20px;
+    color: #6DBF27;
+}
+.send
+{
+    padding: 10px 40px !important;
+    background-color: #6DBF27 !important;
+    border: none !important;    
+    transition: .5s !important;
+}
+.send:hover{
+    background-color: #FE8A01 !important;
+}
+/* ---------------------------------------------------------jake end ----------------------------------------------------- */
